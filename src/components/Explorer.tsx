@@ -41,8 +41,6 @@ const MyButton = styled.button`
   margin-left: auto;
 `;
 const CloseButton = styled(MyButton)`
-  padding: 0;
-  margin-right: -1.1rem;
   margin-left: -0.3rem;
 `;
 
