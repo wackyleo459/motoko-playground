@@ -35,7 +35,7 @@ export function Console({ setConsoleHeight }) {
     }
   }, [logger.logLines.length]);
   useEffect(() => {
-    const newSize = isExpanded ? "24rem" : "3rem";
+    const newSize = isExpanded ? "15rem" : "3rem";
     setConsoleHeight(newSize);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isExpanded]);
